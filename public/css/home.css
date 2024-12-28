@@ -1,0 +1,39 @@
+html::before{
+    content: "";
+    background-image: url(/img/Museu_do_Flash.webp);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.5;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+main{
+    font-size: 25px;
+}
+
+#seletor{
+    margin: 20px 20px;
+    width: 120px;
+    height: 70px;
+    background-color: #a00000;
+    color: #fff;
+}
+
+.botao{
+    margin: 20px 20px;
+    height: 60px;
+    width: 95px;
+    background-color: #00C22B;
+    color: #fff;
+}

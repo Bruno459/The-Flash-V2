@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.10"
+  }
+}

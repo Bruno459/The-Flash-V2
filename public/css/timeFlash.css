@@ -1,0 +1,47 @@
+html::before{
+    content: "";
+    background-image: url(/img/logo.jpg);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.personagem .nome-personagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.personagem .descricao-personagem{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.retorno{
+    margin-left: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.retorno a{
+    color: #000000;
+    font-size: 20px;
+}
