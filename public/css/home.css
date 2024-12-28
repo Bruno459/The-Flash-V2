@@ -18,22 +18,11 @@ body{
     color: #000000;
 }
 
-main{
-    font-size: 25px;
-}
-
 #seletor{
     margin: 20px 20px;
-    width: 120px;
-    height: 70px;
+    width: 420px;
+    height: 100px;
+    font-size: 20px;
     background-color: #a00000;
-    color: #fff;
-}
-
-.botao{
-    margin: 20px 20px;
-    height: 60px;
-    width: 95px;
-    background-color: #00C22B;
     color: #fff;
 }
